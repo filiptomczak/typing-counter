@@ -12,6 +12,4 @@ class Timer:
     def stop_time(self):
         self.stop = time.time()
         length = self.stop - self.start
-        print(length)
         return length
-
